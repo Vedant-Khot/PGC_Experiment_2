@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This repository contains the empirical performance analysis, parallel execution models, and benchmark results for **Multithreaded Programming Using POSIX Threads (Pthreads) and OpenMP**, evaluating thread creation, work distribution, concurrency hazards, synchronization primitives, and numerical scalability over **$1,000,000,000$ iterations ($10^9$)**.
+This repository contains the empirical performance analysis, parallel execution models, and benchmark results for **Multithreaded Programming Using POSIX Threads (Pthreads) and OpenMP**,  evaluating thread creation, work distribution, concurrency hazards, synchronization primitives, and numerical scalability over **$1,000,000,000$ iterations ($10^9$)**.
 
 ```mermaid
 flowchart LR
