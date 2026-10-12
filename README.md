@@ -279,3 +279,4 @@ Comparison of Execution Time, Speedup, and Parallel Efficiency across Pthreads, 
 1. **Scalability Ceiling**: Multithreading delivers extraordinary speedups for compute-intensive numerical loops up to the physical core count, after which SMT and memory bandwidth dictate scaling efficiency.
 2. **Safety of Synchronization**: Shared memory architectures require rigorous mutual exclusion. Unsynchronized concurrent writes guarantee data race hazards, which can be safely resolved using mutexes or compiler critical sections.
 3. **Productivity vs. Control**: OpenMP provides identical execution performance to Pthreads while drastically reducing code complexity and potential human error, making it the preferred choice for loop-level shared-memory parallelism.
+"# PGC_Experiment_2" 
